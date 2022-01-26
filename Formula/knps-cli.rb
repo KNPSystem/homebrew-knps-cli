@@ -1,12 +1,17 @@
- class KnpsCli < Formula
+class KnpsCli < Formula
   include Language::Python::Virtualenv
 
-  desc "Shiny new formula"
+  desc "KNPS Command Line Interface"
   homepage "https://github.com/KNPSystem/cli"
   url "https://files.pythonhosted.org/packages/c5/07/287b1f9fe9028f2b3e1528a78affea255cd0213f874a1b705828136ad369/knps_cli-0.1.0.tar.gz"
   sha256 "a865f0bcf61c2ea1a276cec6d839f752b22aed695284ec70efdac0cf6d7f7d49"
 
   depends_on "python3"
+
+  resource "setuptools" do
+    url "https://files.pythonhosted.org/packages/ef/75/2bc7bef4d668f9caa9c6ed3f3187989922765403198243040d08d2a52725/setuptools-59.8.0.tar.gz"
+    sha256 "09980778aa734c3037a47997f28d6db5ab18bdf2af0e49f719bfc53967fd2e82"
+  end
 
   resource "binaryornot" do
     url "https://files.pythonhosted.org/packages/a7/fe/7ebfec74d49f97fc55cd38240c7a7d08134002b1e14be8c3897c0dd5e49b/binaryornot-0.4.4.tar.gz"
