@@ -1,10 +1,10 @@
-class KnpsCli < Formula
+ class KnpsCli < Formula
   include Language::Python::Virtualenv
 
   desc "Shiny new formula"
   homepage "https://github.com/KNPSystem/cli"
-  url "https://files.pythonhosted.org/packages/e1/d9/3028c4223ffcf2f72a0ece637ad78a342f3d85a4bc4adee16b2a479ed1d8/knps_cli-0.0.2.tar.gz"
-  sha256 "6d5d2336340c9c6de72446d04ee6e1d4bb45a6565840e369bf299b9b1b7ff34b"
+  url "https://files.pythonhosted.org/packages/c5/07/287b1f9fe9028f2b3e1528a78affea255cd0213f874a1b705828136ad369/knps_cli-0.1.0.tar.gz"
+  sha256 "a865f0bcf61c2ea1a276cec6d839f752b22aed695284ec70efdac0cf6d7f7d49"
 
   depends_on "python3"
 
