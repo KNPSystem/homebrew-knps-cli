@@ -6,7 +6,7 @@ class KnpsCli < Formula
   url "https://files.pythonhosted.org/packages/4f/ae/7fe5c3b8f71493a7e38e344c0dd400155c6a0714ef8c4725adfe4b73ec99/knps_cli-0.1.7-py3-none-any.whl"
   sha256 "6a95e196b69d76a05941c7d5899d79a5f76e59af26b3c5d9b1add5c2fbffda0d"
 
-  depends_on "python3"
+  depends_on "python@3.8"
 
   resource "binaryornot" do
     url "https://files.pythonhosted.org/packages/a7/fe/7ebfec74d49f97fc55cd38240c7a7d08134002b1e14be8c3897c0dd5e49b/binaryornot-0.4.4.tar.gz"
