@@ -6,7 +6,7 @@ class KnpsCli < Formula
   url "https://files.pythonhosted.org/packages/fa/13/25ae5bc3d0256ffce8232d11de06101b2a20084e4f57b4833636f1406a31/knps_cli-0.1.3.tar.gz"
   sha256 "8eae485a8908f58feb417a10959cc8b62c183ae97559aeae05740909abbb986f"
 
-  depends_on :python3
+  depends_on "python@3.10"
 
   resource "setuptools" do
     url "https://files.pythonhosted.org/packages/ef/75/2bc7bef4d668f9caa9c6ed3f3187989922765403198243040d08d2a52725/setuptools-59.8.0.tar.gz"
