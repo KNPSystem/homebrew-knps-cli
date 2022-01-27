@@ -3,8 +3,8 @@ class KnpsCli < Formula
 
   desc "KNPS Command Line Interface"
   homepage "https://github.com/KNPSystem/cli"
-  url "https://files.pythonhosted.org/packages/c5/07/287b1f9fe9028f2b3e1528a78affea255cd0213f874a1b705828136ad369/knps_cli-0.1.0.tar.gz"
-  sha256 "a865f0bcf61c2ea1a276cec6d839f752b22aed695284ec70efdac0cf6d7f7d49"
+  url "https://files.pythonhosted.org/packages/fa/13/25ae5bc3d0256ffce8232d11de06101b2a20084e4f57b4833636f1406a31/knps_cli-0.1.3.tar.gz"
+  sha256 "8eae485a8908f58feb417a10959cc8b62c183ae97559aeae05740909abbb986f"
 
   depends_on "python@3.8"
 
