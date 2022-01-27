@@ -3,8 +3,8 @@ class KnpsCli < Formula
 
   desc "Shiny new formula"
   homepage "https://github.com/KNPSystem/cli"
-  url "https://files.pythonhosted.org/packages/4f/ae/7fe5c3b8f71493a7e38e344c0dd400155c6a0714ef8c4725adfe4b73ec99/knps_cli-0.1.7-py3-none-any.whl"
-  sha256 "6a95e196b69d76a05941c7d5899d79a5f76e59af26b3c5d9b1add5c2fbffda0d"
+  url "https://files.pythonhosted.org/packages/21/ad/4b668dd875cb6e6d26d25202cf27e624e6839d01a7793990eb80cb71ec57/knps_cli-0.1.7.tar.gz"
+  sha256 "7f624b0dfda8d14a52442bcd42627f7095e7c9331c0a50d112bcb7e0a83df721"
 
   depends_on "python@3.8"
 
